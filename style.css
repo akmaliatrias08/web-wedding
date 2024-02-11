@@ -70,7 +70,7 @@ body {
 
 .mynavbar .offcanvas {
   max-height: 795vh;
-  min-height: 100vh;
+  /* min-height: 100vh; */
 }
 
 .mynavbar .navbar-brand,
@@ -89,9 +89,9 @@ body {
   margin-top: -4.4rem;
   padding-top: 13rem;
   padding-bottom: 6rem;
-  background-image: url(img/bg-web.jpg);
+  background-image: url(img/bg-couple.jpg);
   background-size: cover;
-  /* background-position: left; */
+  background-position: right;
   /* background-repeat: no-repeat; */
   min-height: 100vh;
 }
@@ -368,6 +368,7 @@ body {
 }
 
 .hadiah {
+  /* height: 100vh; */
   background-image: url(img/bg-web-closed.jpg);
   background-position: right;
   background-repeat: no-repeat;
@@ -525,6 +526,8 @@ footer li {
 
   .mynavbar .offcanvas {
     width: 150px;
+    max-height: 795vh;
+    min-height: 100vh;
   }
 
   .timeline li .timeline-image {
