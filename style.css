@@ -69,7 +69,8 @@ body {
 }
 
 .mynavbar .offcanvas {
-  min-height: 795vh;
+  max-height: 795vh;
+  min-height: 100vh;
 }
 
 .mynavbar .navbar-brand,
