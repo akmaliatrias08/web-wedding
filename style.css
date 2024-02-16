@@ -368,7 +368,8 @@ body {
 }
 
 .hadiah {
-  height: 80vh;
+  min-height: 50vh;
+  max-height: 80vh;
   background-image: url(img/bg-web-closed.jpg);
   background-position: right;
   background-repeat: no-repeat;
