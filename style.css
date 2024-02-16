@@ -368,7 +368,7 @@ body {
 }
 
 .hadiah {
-  /* height: 100vh; */
+  height: 50vh;
   background-image: url(img/bg-web-closed.jpg);
   background-position: right;
   background-repeat: no-repeat;
@@ -443,7 +443,7 @@ footer li {
 /* laptop */
 @media (max-width: 1024px) {
   html {
-    font-size: 75%;
+    font-size: 90%;
   }
 
   .timeline::before {
@@ -493,7 +493,7 @@ footer li {
 /* tablet */
 @media (max-width: 768px) {
   html {
-    font-size: 65%;
+    font-size: 80%;
   }
 
   .sticky-top {
@@ -521,7 +521,7 @@ footer li {
 /* mobile phone */
 @media (max-width: 576px) {
   html {
-    font-size: 55%;
+    font-size: 65%;
   }
 
   .mynavbar .offcanvas {
