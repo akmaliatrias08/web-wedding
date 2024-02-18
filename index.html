@@ -36,6 +36,12 @@
         <h1>Fitri & Rafli</h1>
         <p>Akan melasungkan pernikahan yang akan diadakan dalam:</p>
         <div class="simply-countdown"></div>
+        <div class="guest-label-parent mt-4 px-5 col d-flex align-items-center justify-content-center">
+          <div class="d-flex row guest-label">
+            <span class="guest-pronoun">Kepada Yth. Bapak/Ibu/Saudara/i: </span>
+            <span class="guest">Ayana</span>
+          </div>
+        </div>
         <a href="#home" class="btn btn-lg mt-4" onClick="enableScroll()"
           >Lihat Undangan</a
         >
@@ -710,6 +716,19 @@
         audioIconWrapper.style.animation = "none";
         audioIcon.classList.add("bi-pause-circle");
         audioIcon.classList.remove("bi-disc");
+      }
+    </script>
+
+    <script>
+      const urlParams = new URLSearchParams(window.location.search);
+      const guest = urlParams.get("guest") || null;
+      const guestDisplay = document.querySelector('.guest-label-parent');
+      const guestName = document.querySelector('.guest');
+
+      if (guest == null) {
+        guestDisplay.setAttribute("class", "d-none");
+      } else {
+        guestName.innerText = guest;
       }
     </script>
   </body>

@@ -24,6 +24,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-image: url(img/wedding-hero.png);
+  /* filter: blur(1px); */
   z-index: -1;
 }
 
@@ -34,7 +35,7 @@ body {
 
 .hero h1,
 .hero h4,
-.hero p {
+.hero p{
   text-shadow: var(--shadow);
 }
 
@@ -50,6 +51,28 @@ body {
 
 .hero p {
   font-size: 1.4rem;
+}
+
+.hero .guest-label {
+  width: fit-content;
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  background-color: rgba(255, 255, 255, 0.8); 
+  border: 1px solid #f7f7f7;
+}
+
+.hero .guest-pronoun {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: var(--font-paragraf);
+  font-style: italic;
+}
+
+.hero .guest {
+  font-weight: 800;
+  font-size: 1.5rem;
+  color: var(--font-title);
+  text-transform: uppercase;
 }
 
 .hero a {
